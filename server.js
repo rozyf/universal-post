@@ -40,7 +40,9 @@ const model = data => {
   });
 }
 
-
+app.get('/', (req, res) => {
+  return res.send('<h1 style="color:red">Success</h1>')
+})
 
 app.post('/', (req, res) => {
   const data = req.body

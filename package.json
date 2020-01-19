@@ -1,0 +1,19 @@
+{
+  "name": "universal-post",
+  "version": "1.0.0",
+  "description": "post request with universal json data to mongo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Firmansyah Rozy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
